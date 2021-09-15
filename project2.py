@@ -75,7 +75,7 @@ def run():
     platzi_worker = list(filter(lambda worker : worker["organization"] == "Platzi", DATA))
     adults = [person["name"] for person in DATA if person["age"] > 18 ]
     old_people = [{**person, **{'old':person['age'] > 70}} for person in DATA] #** para sumar diccionarios
-    
+       
 
     #print place python devs
     #for person in python_devs:
@@ -94,3 +94,5 @@ def run():
 
 if __name__ == '__main__':
     run()
+
+#Este comentario es para una prueba en git
