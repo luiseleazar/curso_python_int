@@ -9,7 +9,7 @@ def divisors(num):
 
 def run():
     num = input("ingresa un numero: ")
-    assert num.isnumeric(), "Ingresa un número"
+    assert num.isnumeric() and num > 0, "Ingresa un número positivo"
     print(divisors(int(num))) 
     print("terminó el programa")
     
