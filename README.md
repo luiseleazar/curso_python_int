@@ -1,2 +1,2 @@
 # curso_python_int
-Python intermadate Course
+In this repository I saved python scripts from a intermediate course.
